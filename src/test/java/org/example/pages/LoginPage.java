@@ -1,11 +1,11 @@
 package org.example.pages;
 
 import net.serenitybdd.annotations.Step;
-import net.serenitybdd.core.steps.UIInteractions;
+import net.serenitybdd.core.steps.UIInteractionSteps;
 import org.openqa.selenium.By;
 
 
-public class LoginPage extends UIInteractions {
+public class LoginPage extends UIInteractionSteps {
 
     @Step("Click my account tab")
     public LoginPage clickMyAccountTab() {
